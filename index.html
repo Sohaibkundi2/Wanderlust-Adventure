@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlust Adventure</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+  <div class="main">
+    <nav>
+      <div class="logo">
+        <h2>Wanderlust Adventure</h2>
+      </div>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars" id="menu-icon"></i>
+      </div>
+      <ul id="nav-links">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#destination-section" class="nav-link">Destination</a></li>
+        <li><a href="#packages" class="nav-link">Packages</a></li>
+        <li><a href="#contact" class="nav-link">Contact us</a></li>
+      </ul>
+    </nav>
+    
+    
+    <div id="hero" class="hero">
+      <h1>Explore the World with <span>Wanderlust Adventures</span></h1>
+      <div class="hero-lower"> 
+        <input type="text" placeholder="Where you want to go ?">
+        <button>Book Now</button>
+      </div>
+    </div>
+
+
+
+    <div id="destination-section" class="destination-section">
+      <h2>Featured Destinations</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          
+          <!-- Destination 1 -->
+          <div class="swiper-slide">
+            <div class="destination-card">
+              <img src="./Assets/paris.webp" alt="Paris">
+              <div class="destination-info">
+                <h3>Paris, France</h3>
+                <p>Explore the City of Love, known for its iconic Eiffel Tower and charming streets.</p>
+                <a href="#" class="view-more">View More</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Destination 2 -->
+          <div class="swiper-slide">
+            <div class="destination-card">
+              <img src="./Assets/dubai.webp" alt="Dubai">
+              <div class="destination-info">
+                <h3>Dubai, UAE</h3>
+                <p>Experience luxury, modern architecture, and breathtaking desert landscapes.</p>
+                <a href="#" class="view-more">View More</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Destination 3 -->
+          <div class="swiper-slide">
+            <div class="destination-card">
+              <img src="./Assets/switzer.webp" alt="Switzerland">
+              <div class="destination-info">
+                <h3>Switzerland</h3>
+                <p>Enjoy picturesque mountains, crystal-clear lakes, and winter adventures.</p>
+                <a href="#" class="view-more">View More</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Destination 4 -->
+          <div class="swiper-slide">
+            <div class="destination-card">
+              <img src="./Assets/bali.webp" alt="bali">
+              <div class="destination-info">
+                <h3>Bali, Indonesia</h3>
+                <p>Discover tropical paradise with stunning beaches and vibrant culture.</p>
+                <a href="#" class="view-more">View More</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Destination 5 -->
+          <div class="swiper-slide">
+            <div class="destination-card">
+              <img src="./Assets/tokiyo.webp" alt="Tokyo">
+              <div class="destination-info">
+                <h3>Tokyo, Japan</h3>
+                <p>Immerse yourself in a futuristic city with rich traditions and vibrant nightlife.</p>
+                <a href="#" class="view-more">View More</a>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+    
+    
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+    <div class="testimonial-section">
+      <h2>What Our Travelers Say</h2>
+      <div class="testimonials">
+        <div class="testimonial-card">
+          <img src="./Assets/s 1.png" alt="Sohaib khan" class="profile-image" />
+          <h3>Sohaib khan</h3>
+          <p class="location">TANK PAKISTAN</p>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p class="comment">
+            "This travel agency made my dream vacation come true! From booking flights to arranging stays at
+            breathtaking destinations, every detail was flawless."
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <img
+            src="https://images.unsplash.com/photo-1517841905240-472988babdf9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fHRyYXZlbGVyfGVufDB8fHx8MTY5MzU1Njk2Ng&ixlib=rb-4.0.3&q=80&w=400"
+            alt="Daniel Lee" class="profile-image" />
+          <h3>Daniel Lee</h3>
+          <p class="location">Sydney, Australia</p>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p class="comment">
+            "Absolutely amazing! The personalized itinerary exceeded my expectations, and the scenic spots were out of
+            this world. Highly recommend!"
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <img
+            src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEzfHRyYXZlbGVyfGVufDB8fHx8MTY5MzU1Njk2Ng&ixlib=rb-4.0.3&q=80&w=400"
+            alt="Sarah & John Baker" class="profile-image" />
+          <h3>Sarah & John Baker</h3>
+          <p class="location">London, UK</p>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p class="comment">
+            "We celebrated our anniversary with a trip to the Maldives, and it was magical. The team ensured every
+            moment was unforgettable!"
+          </p>
+        </div>
+        <div class="testimonial-card">
+          <img src="./Assets/testi4.png" alt="Sohaib khan" class="profile-image" />
+          <h3>Abdul Wahab</h3>
+          <p class="location">PESHAWAR PAKISTAN</p>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p class="comment">
+            "This travel agency made my dream vacation come true! From booking flights to arranging stays at
+            breathtaking destinations, every detail was flawless."
+          </p>
+        </div>
+        <div class="testimonial-card">
+          <img src="./Assets/testi5.png" alt="Sohaib khan" class="profile-image" />
+          <h3>Ali Raza</h3>
+          <p class="location">KARACHI PAKISTAN</p>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p class="comment">
+            "We celebrated our anniversary with a trip to the Maldives, and it was magical. The team ensured every
+            moment was unforgettable!"
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+      <div id="pakages" class="packages-section">
+        <h2>Special Travel Packages</h2>
+        <div class="packages-grid">
+          <!-- Package 1 -->
+          <div class="package-card">
+            <h3>Honeymoon Getaway</h3>
+            <p class="price">$999 / Couple</p>
+            <p>Experience a romantic retreat with luxurious accommodations and breathtaking views.</p>
+            <a href="#" class="action-btn">Learn More</a>
+          </div>
+
+          <!-- Package 2 -->
+          <div class="package-card">
+            <h3>Adventure Trails</h3>
+            <p class="price">$499 / Person</p>
+            <p>Embark on thrilling adventures through rugged terrains and scenic landscapes.</p>
+            <a href="#" class="action-btn">Learn More</a>
+          </div>
+
+          <!-- Package 3 -->
+          <div class="package-card">
+            <h3>Family Fun Trips</h3>
+            <p class="price">$1299 / Family</p>
+            <p>Enjoy memorable family experiences with activities and comfortable stays.</p>
+            <a href="#" class="action-btn">Learn More</a>
+          </div>
+
+          <!-- Package 4 -->
+          <div class="package-card">
+            <h3>Luxury Cruise</h3>
+            <p class="price">$1999 / Person</p>
+            <p>Sail away on a luxury cruise with world-class amenities and entertainment.</p>
+            <a href="#" class="action-btn">Learn More</a>
+          </div>
+
+          <!-- Package 5 -->
+          <div class="package-card">
+            <h3>Beach Retreat</h3>
+            <p class="price">$799 / Person</p>
+            <p>Relax on pristine beaches with crystal-clear waters and serene surroundings.</p>
+            <a href="#" class="action-btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+          <div class="contact-lft">
+            <img src="./Assets/contact.webp" alt="">
+            
+          </div>
+          <div class="contact-form">
+            <form action="#" method="post">
+              <h3>Any Question ?</h3>
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input type="email" name="email" placeholder="Your Email" required />
+              <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="contact-bottom">
+          <div class="contact-bottom-ist">
+              <h2>Wanderlust Adventure</h2>
+          </div>
+          <div class="contact-bottom-2nd">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#">Terms and conditions</a></li>
+              <li><a href="#">privicy policy</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="contact-bottom-2nd">
+              <h3>Contact Us</h3>
+              <ul>
+                <li>Email: <a href="#">sohaibkundi2@gmail.com</a></li>
+                <li>Phone: <a href="#">+923350532352</a></li>
+                <li>Address: <a href="#">Tank city</a></li>
+              </ul>
+          </div>
+          <div class="contact-bottom-4th">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <br>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p> "&copy; 2025 Wanderlust Adventure. All right reserved."</p>
+      </footer>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>  
+  <script src="script.js"></script>
+</body>
+
+</html>
