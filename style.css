@@ -144,7 +144,7 @@ nav ul a.active {
   width: 100%;
   height: 90vh;
   text-align: center;
-  background: url(./Assets/hero.jpg);
+  background: url(./Assets/hero.webp);
   background-position: center;
   background-size: cover;
   backdrop-filter: blur(100px);
